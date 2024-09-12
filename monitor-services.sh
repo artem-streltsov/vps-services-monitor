@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./.env
+source ~/vps-services-monitor/.env
 
 TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
 CHAT_ID=${CHAT_ID}

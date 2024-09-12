@@ -1,5 +1,0 @@
-/bin/sh: 1: /home/megacock3000/vps-services-monitor/monitor-services.sh: Permission denied
-/bin/sh: 1: /home/megacock3000/vps-services-monitor/monitor-services.sh: Permission denied
-/bin/sh: 1: /home/megacock3000/vps-services-monitor/monitor-services.sh: Permission denied
-/home/megacock3000/vps-services-monitor/monitor-services.sh: line 3: ./.env: No such file or directory
-{"ok":false,"error_code":404,"description":"Not Found"}{"ok":false,"error_code":404,"description":"Not Found"}
