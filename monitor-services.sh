@@ -23,5 +23,6 @@ check_service_status() {
   fi
 }
 
-check_service_status "ucl-timetable-bot"
-check_service_status "url-shortener"
+for service in ${SERVICES}; do
+  check_service_status "${service}"
+done
