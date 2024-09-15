@@ -18,8 +18,6 @@ check_service_status() {
 
   if [[ "${service_status}" != "active" ]]; then
     send_telegram_message "Alert: ${service_name} is ${service_status} on the server."
-  else
-    send_telegram_message "${service_name} is running smoothly on the server."
   fi
 }
 
